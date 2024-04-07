@@ -4,11 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML: Conheça!</title>
+    <title>DIO | Desafio prático 01</title>
 </head>
 
 <body>
+    <header>
+        <h1>Entendendo como algumas tags funcionam em HTML 5:</h1>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Outras tags interessantes</a></li>
+            <li><a href="#">Referências</a></li>
+        </ul>
+    </header>
 
+    <h2>
+        < mark>
+    </h2>
+    <p>
+        O elemento HMTL < mark> **representa um trecho de destaque em um texto, por exemplo, <mark>sequência de texto
+                marcado como referência</mark>, devido à sua relevância em um contexto particular. Por Exemplo, pode ser
+            utilizado em uma página que mostra os resultados de uma busca onde todas as instâncias da palavra
+            pesquisadas receberam destaque.
+    </p>
+    <blockquote cite="https://developer.mozilla.org">
+        <p>Esta é uma citação tirada da Mozilla Developer Center.</p>
+    </blockquote>
+
+    <hr />
+    <h2>
+        < small>
+    </h2>
+    <p>
+        Eu sei o que você está pensando agora: “<i>
+            < small> é deprecated, ninguém usa mais desde que o CSS passou a definir o tamanho das fontes dos elementos
+        </i>”. Tirando a parte do deprecated, você está até certo. Mas isso foi antes do HTML 5.
+        Com o advento do HTML 5, o < small> deixou de ser aquela tag sem graça que apenas reduzia o tamanho da fonte
+            para ganhar um valor semântico.
+            Agora, a tag simboliza elementos que normalmente seriam escritos em letra miúda fora da web, como avisos,
+            regras, restrições legais, direitos de uso etc.<br>
+            Vamos dar uma olhada como funciona: <strong>Copyright <small>©</small> 2014</strong>
+    </p>
+    <blockquote cite="https://www.w3schools.com">
+        <p>Esta é uma citação tirada da w3schools.</p>
+    </blockquote>
+    <hr />
+    <h2>
+        < sub>
+    </h2>
+    <p>
+        O < sub> o elemento deve ser utilizado apenas por razões tipográficas — ou seja, para alterar a posição do texto
+            de modo a cumprir as convenções ou normas tipográficas, e não apenas para fins de apresentação ou aparência.
+
+            Por exemplo, usando < sub> para estilizar o nome de uma empresa que usa linhas de base alteradas em suas
+                marca de palavra não seria apropriado; <strong>em vez disso, o CSS deve ser usado.</strong> Por exemplo,
+                você pode usar o <i><mark>vertical-align</mark></i> propriedade com uma declaração como vertical-align:
+                sub ou, para controlar com mais precisão a mudança de linha de base, vertical-align: -25%.
+
+                Casos de uso apropriados para < sub> inclua (, mas não esteja necessariamente limitado a ):
+
+                    Marcando números de notas de rodapé. Veja Números de nota de rodapé por exemplo.
+                    Marcando o subscrito em números variáveis matemáticos ( embora você também considere usar um MathML
+                    fórmula para este ). Veja Subscritos variáveis.
+                    Denotando o número de átomos de um determinado elemento dentro de uma fórmula química (como o melhor
+                    amigo de cada desenvolvedor, <strong>C H <sub>10</sub> N <sub>4</sub> O <sub>2</sub></strong> ,
+                    também conhecido como "cafeína").
+    </p>
+    <blockquote cite="https://developer.mozilla.org">
+        <p>Esta é uma citação tirada da Mozilla Developer Center.</p>
+    </blockquote>
+    <hr />
+    <h2>
+        < sup>
+    </h2>
+    <p>
+        O < sup> o elemento só deve ser utilizado por razões tipográficas—ou seja, para alterar a posição do texto de
+            modo a cumprir as convenções ou normas tipográficas, e não apenas para fins de apresentação ou aparência.
+
+            Por exemplo, para estilizar o marca-palavra de um negócio ou produto que usa uma linha de base elevada deve
+            ser feito usando CSS (provavelmente vertical-align) em vez de < sup>. Isso seria feito usando, por exemplo,
+                vertical-align: super ou, para mudar a linha de base para cima 50%, vertical-align: 50%.
+
+                Casos de uso adequados para < sup> incluir (mas não estão necessariamente limitados a):
+
+                    Expor expoentes, como "x3". Pode valer a pena considerar o uso de MathML para estes, especialmente
+                    em casos mais complexos. Ver Exponentes sob Exemplos abaixo.
+                    Exibindo letras superiores, que é usado em alguns idiomas ao renderizar certas abreviações. Por
+                    exemplo, em francês, a palavra "mademoiselle" pode ser abreviada "Mlle"; este é um caso de uso
+                    aceitável. Ver Letras superiores por exemplo.
+                    Representando números ordinais, como "4th" em vez de "quarto." Ver Números ordinais por exemplo.
+    </p>
+    <blockquote cite="https://developer.mozilla.org">
+        <p>Esta é uma citação tirada da Mozilla Developer Center.</p>
+    </blockquote>
+    <hr />
+    <h3 id="outrasTags">Outras tags interessantes:</h3>
+    <ol>
+        <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/del">Clique e conheça a
+                tag: <strong>
+                    < del>
+                </strong></a></li>
+        <p>
+            Exemplo: <del>Este é um exemplo da tag</del> <strong>
+                < del>.
+            </strong>
+        </p>
+        <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/abbr">Clique e conheça a
+                tag: <strong>
+                    < abbr>
+                </strong></a></li>
+    </ol>
 </body>
 
 </html>
